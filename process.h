@@ -4,4 +4,4 @@ typedef struct {
     int state;
     float progress;
     int q;
-} process_;
+} *process_;

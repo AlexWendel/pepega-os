@@ -7,11 +7,6 @@
 #define MAX_PROCESS 25
 #define MAX_Q 10
 
-process_ get_next_process(Lista process_list){
-    Fila *process = desenfileira(process_list);
-    return process    
-}
-
 int main(){
     int n_process, q_process;
 
