@@ -6,6 +6,7 @@
 //typedef char Itemf;
 //typedef char* Itemf;
 typedef process_ Itemf;
+#define avanca(i) (i = (i + 1) % F->max)
 
 typedef struct fila {
 	int inicio;
@@ -47,7 +48,7 @@ int cheiaf(Fila F) {
 	return (F->total == F->max);
 }
 
-#define avanca(i) (i = (i + 1) % F->max)
+
 
 void enfileira(Itemf i, Fila F) {
 	if (cheiaf(F)) { puts("Fila cheia!"); abort(); }

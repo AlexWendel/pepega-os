@@ -1,7 +1,8 @@
-typedef struct {
+typedef struct process{
     unsigned char pid;
-    unsigned char priority;
+    int priority;
     int state;
-    float progress;
+    int progress;
     int q;
+    int q_process;
 } *process_;
